@@ -1,0 +1,122 @@
+html {
+    font-family: "Comic Sans MS";
+}
+
+/* ####################### Header section ################################ */
+
+.header {
+    background-image: url(./img/16.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    /* border: solid red; */
+    height: 550px;
+    margin-bottom: 30px;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    text-align: center; 
+    /* border: solid red; */
+    padding: 10px;
+}
+    
+.navbar-link {
+    text-decoration: none;
+    text-align: center; 
+    padding: 10px; 
+    font-size: 20px;
+    color: rgb(37, 90, 235);
+}
+
+.navbar-link:hover {
+    color: rgb(241, 145, 67);
+}
+
+
+/* ####################### Cards section ################################ */
+
+.card-wrapper {
+    /* border: solid red; */
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card-bottom {
+    /* border: solid rgb(166, 187, 161); */
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(37, 90, 235);
+    border-radius: 5px;
+
+}
+
+.card-bottom:hover {
+    color: rgb(241, 145, 67);
+}
+
+.text-wrapper {
+    /* border: solid blue; */
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+    
+}
+
+.card-title {
+    /* border: solid lawngreen; */
+    width: 600px;
+} 
+
+.card-text {
+    /* border: solid rgb(128, 0, 122); */
+    width: 600px;   
+    display: block;
+    font-size: 20px ;
+    margin-bottom: 30px;
+
+}
+
+.img-wrapper {
+    /* border: solid rgb(255, 153, 0); */
+    display: inline-block; 
+}
+
+.card-img {
+    /* border: solid yellow; */
+    width: 600px;
+    border-radius: 10px;
+}
+
+.bottom-wrapper {
+    /* border: solid rgb(161, 19, 255); */
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.bottom-wrapper a:hover {
+    color: rgb(241, 145, 67);
+}
+
+.bottom-wrapper a {
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgb(37, 90, 235);
+    border-radius: 5px;
+}
+
+.class-me {
+    /* border: solid rgb(161, 19, 255); */
+    position: relative;
+    bottom: 200px;
+}
+
+.img-me {
+    width: 500px;
+}
