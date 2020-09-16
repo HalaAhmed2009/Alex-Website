@@ -62,8 +62,14 @@ html {
     text-align: left;
     display: inline-block;
     position: relative;
-    bottom: 100px;
-    
+    bottom: 100px; 
+}
+
+@media only screen and (max-width: 1024px) {
+    .text-wrapper {
+        /* border: solid yellow; */
+        margin-top: 100px;
+    }
 }
 
 .card-title {
