@@ -83,8 +83,8 @@ html {
     display: block;
     font-size: 20px ;
     margin-bottom: 30px;
-
 }
+
 
 .img-wrapper {
     /* border: solid rgb(255, 153, 0); */
@@ -123,6 +123,17 @@ html {
     bottom: 200px;
 }
 
+@media only screen and (max-width: 1024px)  {
+  .class-me {
+   margin-top: 300px;
+   /* border: solid rgb(161, 19, 255); */
+  }      
+  }
+
 .img-me {
     width: 500px;
+    /* border: solid rgb(161, 19, 255); */
+    position: relative;
+    bottom: 100px;
+
 }
