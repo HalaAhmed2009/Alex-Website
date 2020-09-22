@@ -29,6 +29,12 @@ html {
     color: rgb(37, 90, 235);
 }
 
+@media only screen and (max-width: 1024px) {
+    .navbar-link {
+     font-size: 40px;
+    }
+}
+
 .navbar-link:hover {
     color: rgb(241, 145, 67);
 }
@@ -126,7 +132,7 @@ html {
 @media only screen and (max-width: 1024px)  {
   .class-me {
    margin-top: 300px;
-   /* border: solid rgb(161, 19, 255); */
+   border: solid rgb(161, 19, 255);
   }      
   }
 
