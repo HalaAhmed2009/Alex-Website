@@ -132,7 +132,7 @@ html {
 @media only screen and (max-width: 1024px)  {
   .class-me {
    margin-top: 300px;
-   border: solid rgb(161, 19, 255);
+   /* border: solid rgb(161, 19, 255); */
   }      
   }
 
@@ -140,6 +140,6 @@ html {
     width: 500px;
     /* border: solid rgb(161, 19, 255); */
     position: relative;
-    bottom: 100px;
+    /* bottom: 100px; */
 
 }
